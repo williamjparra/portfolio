@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.buttons-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    max-width: 70%;
+    justify-content: space-between;
+    align-items: center
+}
+
+nav .buttons-container .buttons ul {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    list-style-type: none
+}
+
+nav .buttons-container .buttons ul li{
+    margin: 20px;
+}

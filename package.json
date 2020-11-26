@@ -6,8 +6,14 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "gifsicle": "^5.1.0",
+    "gulp-rm": "^2.0.0",
+    "pngquant-bin": "^6.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
@@ -34,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.5",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0"
   }
 }
