@@ -2,18 +2,9 @@ import React from 'react'
 import './css/Navbar.css'
 
 function Navbar() {
-    var activeToggle = true
 
-    const changeBehavior = (event) => {
-        var el = document.getElementById("activateElement")
-
-        activeToggle = activeToggle ? false : true
-
-        if(activeToggle) {
-            el.setAttribute("checked", "true")
-        } else {
-            el.removeAttribute("checked")
-        }
+    const changeBehavior = (e) => {
+        console.log(e)
     }
 
     return (
@@ -40,6 +31,12 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div className="toggle-container">
+                <label className="switch" onChange={changeBehavior}>
+                    <input type="checkbox" />
+                    <span className="slider round"></span>
+                </label>
             </div>
         </nav>
     )

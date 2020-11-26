@@ -11,16 +11,12 @@ class Home extends React.Component {
         this.state = {
             active: true
         }
-    }
-    
-    setMotion = () => {
-        this.state.active ? this.setState({active: false}) : this.setState({active: true})
-    }    
+    }   
 
     render() {
         return(
             <React.Fragment>
-                <div className={this.state.active ? "header-active" : "header-unactive"}>
+                <div className="header-active" >
 
                 </div>
                 <div className="container">
