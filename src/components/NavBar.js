@@ -1,12 +1,8 @@
 import React from 'react'
 import './css/Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
-
-    const changeBehavior = (e) => {
-        console.log(e)
-    }
-
     return (
         <nav>
             <div className="buttons-container">
@@ -18,25 +14,27 @@ function Navbar() {
                 <div className="buttons">
                     <ul>
                         <li>
-                            About Me
+                            <Link to="#about-me">
+                                About Me
+                            </Link>
                         </li>
                         <li>
-                            My Projects
+                            <Link to="#my-projects">
+                                My Projects
+                            </Link>
                         </li>
                         <li>
-                            My viedeos
+                            <Link to="#my-videos">
+                                My videos
+                            </Link>
                         </li>
                         <li>
-                            Contact Me
+                            <Link to="#contat-me">
+                                Contact Me
+                            </Link>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div className="toggle-container">
-                <label className="switch" onChange={changeBehavior}>
-                    <input type="checkbox" />
-                    <span className="slider round"></span>
-                </label>
             </div>
         </nav>
     )
