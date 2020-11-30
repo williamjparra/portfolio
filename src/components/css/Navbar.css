@@ -29,6 +29,7 @@ nav .buttons-container .buttons ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 
 nav .buttons-container .buttons ul li a:hover {

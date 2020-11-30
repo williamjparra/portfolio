@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './css/Navbar.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 function Navbar() {
     var [toggleOn, setToggleOn] = useState(true)
@@ -26,22 +26,22 @@ function Navbar() {
                     <div className="buttons">
                         <ul>
                             <li>
-                                <Link to="#about-me">
+                                <Link activeClass="active" to="about-me" spy={true} smooth={true} offset={50} >
                                     About Me
                                 </Link>
                             </li>
                             <li>
-                                <Link to="#my-projects">
+                                <Link activeClass="active" to="my-projects" spy={true} smooth={true} offset={50} >
                                     My Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link to="#my-videos">
+                                <Link activeClass="active" to="my-videos" spy={true} smooth={true} offset={50} >
                                     My videos
                                 </Link>
                             </li>
                             <li>
-                                <Link to="#contat-me">
+                                <Link activeClass="active" to="contact-me" spy={true} smooth={true} offset={50} >
                                     Contact Me
                                 </Link>
                             </li>

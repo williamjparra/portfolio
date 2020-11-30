@@ -1,14 +1,26 @@
 import React from 'react'
+import Emoji from '../components/emojiSymbol'
+//import ProfileImg from '../img/IMG_2982.webp'
+import './css/description.css'
 
 function Description() {
     return(
-        <div>
+        <div className="description-container" id="about-me">
             <h3>
-                hola klk
+                <Emoji symbol="😜" label="Crazy Face" />
+                    Hi!, i'm William a Full-stack Dev
+                <Emoji symbol="😜" label="Crazy Face" />
             </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae expedita eaque deserunt tenetur aliquid soluta, delectus dicta impedit quisquam? Quis itaque praesentium odit quibusdam laborum dicta fugiat impedit optio voluptas. Lorem ipsum lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam quae alias labore laudantium dignissimos cum iusto iure tempore repellat. Reprehenderit dolorum voluptatum mollitia quae, porro nostrum sequi magnam culpa?
-            </p>
+            <div className="card-container">
+                <div className="image-container">
+                    <img alt="full-stack dev MERN stack freelancer node backend" src="src" />
+                </div>
+                <div className="content-description">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }

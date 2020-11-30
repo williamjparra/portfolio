@@ -3,6 +3,7 @@ import './css/home.css'
 
 //componentes
 import Description from '../components/Description'
+import Projects from '../components/Projects'
 
 class Home extends React.Component {
 
@@ -15,7 +16,8 @@ class Home extends React.Component {
         return(
             <React.Fragment>
                 <div className="container">
-                    <Description />
+                    <Description name="about-me" />
+                    <Projects name="my-projects" />
                 </div>
             </React.Fragment>
         )

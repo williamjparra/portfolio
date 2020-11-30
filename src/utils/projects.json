@@ -1,0 +1,26 @@
+[
+    {
+        "img": "movieApiImg",
+        "title": "Movie API Server con JWT",
+        "link": "https://github.com/williamjparra/movieServer",
+        "description": ""
+    },
+    {
+        "img": "reactBabgest",
+        "title": "Badgest Generador con react",
+        "link": "https://github.com/williamjparra/babgest-react-app",
+        "description": ""
+    },
+    {
+        "img": "MERNG",
+        "title": "MERNG - Stack Social-Media App",
+        "link": "https://github.com/williamjparra/React-Mongo-GraphQL",
+        "description": ""
+    },
+    {
+        "img": "Redux",
+        "title": "React - Redux Blog/Forum",
+        "link": "https://github.com/williamjparra/react-redux",
+        "description": ""
+    }
+]
