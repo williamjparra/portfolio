@@ -1,0 +1,46 @@
+.videoContainer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-video {
+    width: 40%;
+    height: 256px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card-video .description-container {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.card-video a{
+    text-decoration: none;
+}
+
+.card-video h3:hover {
+    color: #75c8f6;
+    text-shadow: -6px 4px 20px rgba(53, 26, 81, 0.8);
+    transition-duration: 0.4s;
+}
+
+.videoCard-1 {
+    background-image: url('../../img/rain.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoCard-2 {
+    background-image: url('../../img/rain.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

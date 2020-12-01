@@ -4,6 +4,7 @@ import './App.css';
 //components
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <NavBar />
         <div className="App">
           <Route exact path="/" component={Home} />
-        </div>  
+        </div> 
+        <Footer />
       </Router>
     </div>
   );

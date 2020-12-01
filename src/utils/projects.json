@@ -3,24 +3,24 @@
         "img": "movieApiImg",
         "title": "Movie API Server con JWT",
         "link": "https://github.com/williamjparra/movieServer",
-        "description": ""
+        "description": "in this app, i make a Movie lister API that use jwt as authentication method"
     },
     {
         "img": "reactBabgest",
         "title": "Badgest Generador con react",
         "link": "https://github.com/williamjparra/babgest-react-app",
-        "description": ""
+        "description": "this is an app that create and list babges with the data that you enter a show yout gravatar profile image as a profile picture on the babge"
     },
     {
         "img": "MERNG",
         "title": "MERNG - Stack Social-Media App",
         "link": "https://github.com/williamjparra/React-Mongo-GraphQL",
-        "description": ""
+        "description": "here i make a social media app that uses GraphQL to enlist, create, update an delete post. Also use jwt to authenticate users in the app"
     },
     {
         "img": "Redux",
         "title": "React - Redux Blog/Forum",
         "link": "https://github.com/williamjparra/react-redux",
-        "description": ""
+        "description": "this is a react app that uses redux to share the and map the steta between components"
     }
 ]
