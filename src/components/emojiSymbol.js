@@ -1,5 +1,6 @@
 import React from 'react'
 
+//this is an emoji component to make then compatible with reactjs
 const emojiSymbol = props => (
     <span
         className="emoji"
