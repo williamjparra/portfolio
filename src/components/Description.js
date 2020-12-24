@@ -1,6 +1,6 @@
 import React from 'react'
 import Emoji from '../components/emojiSymbol'
-//import ProfileImg from '../img/IMG_2982.webp'
+import ProfileImg from '../img/avat.png'
 import './css/description.css'
 
 function Description() {
@@ -13,7 +13,7 @@ function Description() {
             </h3>
             <div className="card-container">
                 <div className="image-container">
-                    <img alt="full-stack dev MERN stack freelancer node backend" src="src" />
+                    <img alt="full-stack dev MERNg stack freelancer node backend passportJs" src={ProfileImg} />
                 </div>
                 <div className="content-description">
                     <p>

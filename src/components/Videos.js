@@ -15,7 +15,7 @@ function Videos() {
                 </a>
             </div>
             <div className="videoCard-2 card-video">
-                <a href="http://youtube.com/williamjparra">
+                <a href="https://www.youtube.com/channel/UCcueezCeV-7mPs1nAWM9afg">
                     <div className="description-container">
                         <h3>
                             My YouTube channel

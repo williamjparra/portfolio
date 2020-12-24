@@ -19,7 +19,7 @@
 .card-container {
     width:100%;
     margin: 0;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-bottom: 100px;
     padding: 0;
     display: flex;
@@ -29,7 +29,13 @@
 }
 
 .image-container {
-    max-width: 35%;
-    overflow: hidden;
+    width: 450px;
+    max-width: 45%;
+    margin-right: 70px;
+}
+
+.image-container img {
+    height: 300px;
+    border-radius: 20px;
 }
 

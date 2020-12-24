@@ -9,7 +9,7 @@ function Footer () {
                 <div className="div-1 cards-div">
                     <ul>
                         <li>
-                            <a href="http://twitter.com" target="blank">
+                            <a href="http://twitter.com/williamjparra" target="blank">
                                 <i class="fab fa-twitter"></i> Twitter
                             </a>        
                         </li>
@@ -19,7 +19,7 @@ function Footer () {
                             </a>        
                         </li>
                         <li>
-                            <a href="http://linkendin.com" target="blank">
+                            <a href="https://www.linkedin.com/in/william-parra-677a39175/" target="blank">
                                 <i class="fab fa-linkedin"></i> Linkedin
                             </a>        
                         </li>
