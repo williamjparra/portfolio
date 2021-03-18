@@ -48,3 +48,7 @@ footer {
     transition-duration: 0.5s;
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    
+}

@@ -40,3 +40,15 @@
 .project-description-container a:hover {
     color: #75c8f6
 }
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+}

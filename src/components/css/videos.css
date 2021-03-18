@@ -44,3 +44,19 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .videoContainer {
+        flex-direction: column;
+        width: 100%;
+        align-items: center
+    }
+
+    .videoCard-1, .videoCard-2 {
+        width: 100%;
+    }
+
+    .videoCard-1 h3, .videoCard-2 h3 {
+        text-align: center;
+    }
+}
