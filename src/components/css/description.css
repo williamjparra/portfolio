@@ -49,16 +49,18 @@
         padding: 10px;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
     }
     .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
+        max-width: 100%;
         margin: 0 auto;
     }
     .image-container img {
-        width: 200px;
+        width: 75%;
         margin: 0 auto;
     }
     .description-container p {
