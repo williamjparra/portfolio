@@ -11,7 +11,6 @@ function Navbar() {
         } else {
             setToggleOn(true)
         }
-        console.log(toggleOn)
     }
 
     return (
