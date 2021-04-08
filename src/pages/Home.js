@@ -1,5 +1,7 @@
 import React from 'react'
 import './css/home.css'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 //componentes
 import Description from '../components/Description'
@@ -21,6 +23,7 @@ class Home extends React.Component {
     render() {
         return(
             <React.Fragment>
+                <NavBar />
                 <HeadTags 
                     pageTitle="William Dev"
                     metaDescription="william dev portfolio, Reactjs developer, full-stack dev, MERN stack, nodejs, and auth with passportjs"
@@ -41,6 +44,7 @@ class Home extends React.Component {
                     <Projects name="my-projects" />
                     <Videos name="my-videos" />
                 </div>
+                <Footer />
             </React.Fragment>
         )
     }

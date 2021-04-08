@@ -3,20 +3,19 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 //components
 import Home from './pages/Home'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
+import PdfRender from './pages/PdfRender'
+
 
 function App() {
   return (
-    <div className="app-container">
-      <Router>
-        <NavBar />
+    <Router>
+      <div className="app-container">
         <div className="App">
           <Route exact path="/" component={Home} />
-        </div> 
-        <Footer />
-      </Router>
-    </div>
+        </div>
+        <Route exact path="/pdf" component={PdfRender} />
+      </div>
+    </Router>
   );
 }
 

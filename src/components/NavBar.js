@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './css/Navbar.css'
 import { Link } from 'react-scroll'
+import { Link as Anchor } from 'react-router-dom'
 
 function Navbar() {
     var [toggleOn, setToggleOn] = useState(true)
@@ -18,31 +19,49 @@ function Navbar() {
             <nav>
                 <div className="buttons-container">
                     <div className="logo">
-                        <h1>
-                            WilliamDev
-                        </h1>
+                        <Anchor to="/">
+                            <h1>
+                                WilliamDev
+                            </h1>
+                        </Anchor>
                     </div>
                     <div className="buttons">
                         <ul>
                             <li>
-                                <Link activeClass="active" to="about-me" spy={true} smooth={true} offset={50} >
-                                    About Me
-                                </Link>
+                                <Anchor to>
+                                    <Link activeClass="active" to="about-me" spy={true} smooth={true} offset={50} >
+                                        About Me
+                                    </Link>
+                                </Anchor>
                             </li>
                             <li>
-                                <Link activeClass="active" to="my-projects" spy={true} smooth={true} offset={50} >
-                                    My Projects
-                                </Link>
+                                <Anchor to="/">
+                                    <Link activeClass="active" to="my-projects" spy={true} smooth={true} offset={50} >
+                                        My Projects
+                                    </Link>
+                                </Anchor>
                             </li>
                             <li>
-                                <Link activeClass="active" to="my-videos" spy={true} smooth={true} offset={50} >
-                                    My videos
-                                </Link>
+                                <Anchor to="/">
+                                    <Link activeClass="active" to="my-videos" spy={true} smooth={true} offset={50} >
+                                        My videos
+                                    </Link>
+                                </Anchor>
                             </li>
                             <li>
-                                <Link activeClass="active" to="contact-me" spy={true} smooth={true} offset={50} >
-                                    Contact Me
-                                </Link>
+                                <Anchor to="/">
+                                    <Link activeClass="active" to="contact-me" spy={true} smooth={true} offset={50} >
+                                        Contact Me
+                                    </Link>
+                                </Anchor>
+                            </li>
+                            <li>
+                                <Anchor to="/pdf">
+                                    <Link activeClass="active" to="pdfViewver" spy={true} smooth={true} offset={50} >
+                                    
+                                    </Link>
+                                        CV
+                                </Anchor>
                             </li>
                         </ul>
                     </div>
