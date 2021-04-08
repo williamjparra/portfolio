@@ -82,7 +82,7 @@ function Navbar() {
                         HI<br />this is my portfolio<br />I hope you like it<br /> i have very intersing projects down there.<br />
                         {toggleOn === false  && (
                             <span className="sorry-Words">
-                                Ho sorry if that where to much movement
+                                oooh sorry if that where to much movement
                             </span>
                         )}
                     </h2>
