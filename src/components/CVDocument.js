@@ -1,5 +1,5 @@
 import React from 'react';
-import cvWiliam from '../William_J_Parra_CV.pdf'
+import cvWiliam from '../WilliamJ_Parra_CV.pdf'
 
 const CVDocument = () => (
     <div className="pdf-conatiner">
